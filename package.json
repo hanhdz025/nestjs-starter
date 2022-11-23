@@ -1,0 +1,37 @@
+{
+  "name": "nestjs-starter",
+  "version": "1.0.0",
+  "description": "Nest TypeScript starter repository",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rimraf dist && rollup -c",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+  },
+  "dependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-run": "^3.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/express": "^4.17.14",
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.4.0",
+    "source-map-support": "^0.5.21",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3"
+  }
+}
