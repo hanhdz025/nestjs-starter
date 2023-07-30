@@ -32,6 +32,6 @@
     "rollup": "^3.26.3",
     "source-map-support": "^0.5.21",
     "tslib": "^2.6.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.6"
   }
 }
