@@ -9,11 +9,11 @@ dependencies:
     specifier: ^10.1.2
     version: 10.1.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
   '@nestjs/core':
-    specifier: ^10.1.2
-    version: 10.1.2(@nestjs/common@10.1.2)(@nestjs/platform-express@10.1.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+    specifier: ^10.1.3
+    version: 10.1.3(@nestjs/common@10.1.2)(@nestjs/platform-express@10.1.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
   '@nestjs/platform-express':
     specifier: ^10.1.2
-    version: 10.1.2(@nestjs/common@10.1.2)(@nestjs/core@10.1.2)
+    version: 10.1.2(@nestjs/common@10.1.2)(@nestjs/core@10.1.3)
   reflect-metadata:
     specifier: ^0.1.13
     version: 0.1.13
@@ -172,8 +172,8 @@ packages:
       uid: 2.0.2
     dev: false
 
-  /@nestjs/core@10.1.2(@nestjs/common@10.1.2)(@nestjs/platform-express@10.1.2)(reflect-metadata@0.1.13)(rxjs@7.8.1):
-    resolution: {integrity: sha512-iOs29A/cgz8Ou8tOAeVPKYcfFoEiYbIwUvbg0UFI6VIiauo/zGalp/14ok1OL6PotrUU3mRkb0ZWYShINlvqIA==}
+  /@nestjs/core@10.1.3(@nestjs/common@10.1.2)(@nestjs/platform-express@10.1.2)(reflect-metadata@0.1.13)(rxjs@7.8.1):
+    resolution: {integrity: sha512-VzK54TuacC3Vmq3b5xTyMVTlDNJeKbjpKfV9fNqm4TbIBm8ZPo3FC0osJAbAK4XwbVvv2Flq1yA3CutasupVjw==}
     requiresBuild: true
     peerDependencies:
       '@nestjs/common': ^10.0.0
@@ -191,7 +191,7 @@ packages:
         optional: true
     dependencies:
       '@nestjs/common': 10.1.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/platform-express': 10.1.2(@nestjs/common@10.1.2)(@nestjs/core@10.1.2)
+      '@nestjs/platform-express': 10.1.2(@nestjs/common@10.1.2)(@nestjs/core@10.1.3)
       '@nuxtjs/opencollective': 0.3.2
       fast-safe-stringify: 2.1.1
       iterare: 1.2.1
@@ -204,14 +204,14 @@ packages:
       - encoding
     dev: false
 
-  /@nestjs/platform-express@10.1.2(@nestjs/common@10.1.2)(@nestjs/core@10.1.2):
+  /@nestjs/platform-express@10.1.2(@nestjs/common@10.1.2)(@nestjs/core@10.1.3):
     resolution: {integrity: sha512-cH2qiyoc3B5/tujh3rJPUcafc1tY12OJC3B01n5DzRTm4K8xELJbp+jEo3XpUQis2VyET21K7hYfwBU5RJlbaQ==}
     peerDependencies:
       '@nestjs/common': ^10.0.0
       '@nestjs/core': ^10.0.0
     dependencies:
       '@nestjs/common': 10.1.2(reflect-metadata@0.1.13)(rxjs@7.8.1)
-      '@nestjs/core': 10.1.2(@nestjs/common@10.1.2)(@nestjs/platform-express@10.1.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
+      '@nestjs/core': 10.1.3(@nestjs/common@10.1.2)(@nestjs/platform-express@10.1.2)(reflect-metadata@0.1.13)(rxjs@7.8.1)
       body-parser: 1.20.2
       cors: 2.8.5
       express: 4.18.2
