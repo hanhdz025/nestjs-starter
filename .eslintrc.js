@@ -11,7 +11,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'unicorn'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -37,7 +37,6 @@ module.exports = {
     ],
     '@typescript-eslint/no-base-to-string': 'error',
     'no-duplicate-imports': 'off',
-    '@typescript-eslint/no-duplicate-imports': 'error',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-floating-promises': 'warn',
     '@typescript-eslint/no-for-in-array': 'error',
@@ -65,10 +64,11 @@ module.exports = {
     '@typescript-eslint/require-await': 'error',
     'no-return-await': 'off',
     '@typescript-eslint/return-await': 'error',
-    '@typescript-eslint/sort-type-union-intersection-members': 'error',
     '@typescript-eslint/switch-exhaustiveness-check': 'error',
     '@typescript-eslint/unified-signatures': 'error',
     'import/newline-after-import': 'error',
     'import/order': 'error',
+    'unicorn/prefer-node-protocol': 'error',
+    'import/no-unresolved': 'off',
   },
-}
+};
